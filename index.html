@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>FindHome</title>
+</head>
+
+<body>
+    <div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" width="193"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Tentang Proyek <span>|</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Unit  <span>|</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Fasilitas  <span>|</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Lokasi  <span>|</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Kontak</a>
+                </li>
+                <a href="#" class="btn btn-gold mt-1 ml-2">Login</a>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- end Navbar -->
+
+        
+        <div class="container mt-3">
+            <!-- Slider -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/img/slider.png" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/slider.png" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/slider.png" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/slider.png" class="d-block w-100" alt="">
+                    </div>
+                </div>
+                <div class="carousel-search">
+                    <div class="row">
+                        <div class="col-md-4 col-3">
+                            <h6>Lokasi unit <img src="assets/img/i-polygon.png" class="ml-2"></h6>
+                            <p>Jakarta Selatan</p>
+                        </div>
+                            <div class="carousel-line"></div>
+                        <div class="col-md-3 col-4">
+                            <h6>Type unit <img src="assets/img/i-polygon.png" class="ml-2"></h6>
+                            <p>Modern House</p>
+                        </div>
+                            <div class="carousel-line"></div>
+                        <div class="col-md-4 col-4">
+                            <h6>Kisaran Harga <img src="assets/img/i-polygon.png" class="ml-2"></h6>
+                            <p>Rp. 300.000.000 - Rp. 500.000.000</p>
+                        </div>      
+                    </div>
+                </div>
+                <button class="btn carousel-btn">
+                   <img src="assets/img/icon-search.png">
+                </button>  
+            </div>
+            <!-- endSlider -->
+
+            <!-- Content -->
+            <div class="row justify-content-center align-items-center mt-5">
+                <div class="col-md">
+                    <div class="content-video">
+                        <img src="assets/img/video.png">
+                    </div>
+                        <img class="i-play" src="assets/img/play.png">
+                </div>
+                <div class="col-md">
+                    <div class="content-text">
+                        <h1>Citaville Parung Panjang</h1>
+                        <p><img src="assets/img/i-lokasi.svg"> Jagabaya, Parung Panjang, West Java, Bogor</p>
+                        <h3>Harga mulai dari</h3>
+                        <h3>Rp. 347.000.000</h3>
+                        <button class="btn btn-wa mr-3 mt-2 shadow-sm "><img src="assets/img/i-whatsapp.svg"> WhatsApp</button>
+                        <button class="btn btn-brosur mt-2 shadow-sm "><img src="assets/img/i-download.svg"> Brosur</button>
+                        <p class="mt-2">Tentang Citaville Parung Panjang Citaville Parung Panjang merupakan perumahan di Bogor yang mengedepankan kualitas dalam sebuah gaya hidup modern. Saat ini, perumahan Citaville Parung dijual dengan</p>
+                        <button class="btn btn-content shadow ">Selengkapnya >></button>
+                    </div>
+                </div>
+            </div>
+            <!-- content unit -->
+            <div class="row justify-content-start align-items-center mt-3">
+                <div class="col-md">
+                    <h1 class="unit-tittle">Unit yang tersedia</h1>
+                </div>
+                    <div class="line-unit"></div>
+            </div>
+            <div class="row mt-4">
+                <!-- unit -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/img/unit-1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Citaville Parung Panjang</h5>
+                            <div class="card-text">
+                                <h6>Tipe Albert</h6>
+                                <p><img src="assets/img/i-lokasi.svg"> Jagabaya, Parung Panjang, West Java, Bogor</p>
+                                <h5>Rp. 347.000.000</h5>
+                                <div class="row justify-content-center">
+                                    <div class="col-md-3">
+                                        <img src="assets/img/i-surface.svg">
+                                        <p>23 sqm</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="assets/img/i-bed.svg">
+                                        <p>2</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="assets/img/i-shower.svg">
+                                        <p>1</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn-card shadow-sm ">Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end unit -->
+                <!-- unit -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/img/unit-2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Citaville Parung Panjang</h5>
+                            <div class="card-text">
+                                <h6>Tipe Belfast</h6>
+                                <p><img src="assets/img/i-lokasi.svg"> Jagabaya, Parung Panjang, West Java, Bogor</p>
+                                <h5>Rp. 400.000.000</h5>
+                                <div class="row justify-content-center">
+                                    <div class="col-md-3">
+                                        <img src="assets/img/i-surface.svg">
+                                        <p>30 sqm</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="assets/img/i-bed.svg">
+                                        <p>2</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="assets/img/i-shower.svg">
+                                        <p>1</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn-card shadow-sm ">Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end unit -->
+                <!-- unit -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/img/unit-3.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Citaville Parung Panjang</h5>
+                            <div class="card-text">
+                                <h6>Tipe Calgary</h6>
+                                <p><img src="assets/img/i-lokasi.svg"> Jagabaya, Parung Panjang, West Java, Bogor</p>
+                                <h5>Rp. 467.000.000</h5>
+                                <div class="row justify-content-center">
+                                    <div class="col-md-3">
+                                        <img src="assets/img/i-surface.svg">
+                                        <p>48 sqm</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="assets/img/i-bed.svg">
+                                        <p>2</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="assets/img/i-shower.svg">
+                                        <p>2</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn-card shadow-sm ">Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end unit -->
+            </div>
+            <div class="row justify-content-center align-items-center mt-4">
+                <div class="col-md-4">
+                    <div class="line"></div>
+                </div>
+                <div class="col-md-3 text-center">
+                   <button class="btn btn-prev shadow ">< Prev</button>
+                   <button class="btn">1</button>
+                   <button class="btn btn-next shadow ">Next ></button>
+                </div>
+                <div class="col-md-4">
+                    <div class="line"></div>
+                </div>
+            </div>
+            <!-- end content unit -->
+            <!-- fasilitas content -->
+            <h1 class="title">Fasilitas dalam kawasan</h1>
+            <div class="fasilitas">
+                <div class="row">
+                    <div class="col-md">
+                        <img src="assets/img/bg-fasilitas.png">
+                    </div>
+                    <div class="col-md">
+                        <div class="fasilitas-body">
+                            <div class="row">
+                                <div class="col-md">
+                                    <h6 class="fasilitas-text"><img src="assets/img/i-phone.svg"> Telephone</h6>
+                                </div>
+                                <div class="col-md">
+                                     <h6 class="fasilitas-text"><img src="assets/img/i-playground.svg"> Taman bermain anak</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md">
+                                    <h6 class="fasilitas-text"><img src="assets/img/i-park1.svg"> Halman terbuka</h6>
+                                </div>
+                                <div class="col-md">
+                                     <h6 class="fasilitas-text"><img src="assets/img/i-police.svg"> Keamanan 24 jam</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md">
+                                    <h6 class="fasilitas-text"><img src="assets/img/i-park2.svg"> Taman</h6>
+                                </div>
+                                <div class="col-md">
+                                     <h6 class="fasilitas-text"><img src="assets/img/i-broom.svg"> Kebersihan terjaga</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end fasilitas content -->
+            <!-- lokasi content -->
+            <h1 class="title">Lokasi</h1>
+            <div class="row justify-content-center">
+                <div class="col-md">
+                    <img src="assets/img/map.png">
+                </div>
+                <div class="col-md">
+                    <div class="lokasi-text">
+                        <h5>Fasilitas di sekitar kawasan</h5>
+                        <ul>
+                            <li>MI Swasta Terpadu Mulia Buana</li>
+                            <li>Pesantren Baabus Saada Bojongloa</li>
+                            <li>SMP Negeri 2 Parungpanjang</li>
+                            <li>SD Negeri Jagabaya 03</li>
+                            <li>Provider Jasindo Health Car - <br>Harapan Ibu Bogor </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <h1 class="title text-center">Kenapa memilih kami ?</h1>
+            <div class="row text-center justify-content-center">
+                <div class="col-md-4">
+                    <img class="img-kelebihan" src="assets/img/i-kelebihan1.png">
+                    <h6 class="mt-2 font-weight-bold">Harga bersaing</h6>
+                    <p class="font-weight-light">dapatkan berbagai <br> penawaran <br> harga termurah </p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-kelebihan" src="assets/img/i-kelebihan2.png">
+                    <h6 class="mt-2 font-weight-bold">Proses lebih mudah</h6>
+                    <p class="font-weight-light">proses pembalian dengan kami <br> akan lebih mudah</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-kelebihan" src="assets/img/i-kelebihan3.png">
+                    <h6 class="mt-2 font-weight-bold">Tenaga handal</h6>
+                    <p class="font-weight-light">anda akan di layani oleh <br>tenaga handal dan <br> berpengalaman</p>
+                </div>
+            </div>
+            <!-- end lokasi content -->
+            <!-- kontak -->
+            <h1 class="title text-center">Konsultasi gratis !</h1>
+            <div class="kontak text-center">
+                <p>Bingung memilih unit atau properti yang anda inginkan ? <br> segera konsultasikan dengan para tenaga ahli kita</p>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-md">
+                        <img class="icon-kontak" src="assets/img/i-konsultasi.png">
+                    </div>
+                    <div class="col-md">
+                       <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><img width="20" src="assets/img/i-user.svg"></span>
+                            </div>
+                           <input type="text" placeholder="Nama" class="form-control">
+                       </div>
+                       <div class="input-group mt-4">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><img width="20" src="assets/img/i-mail.svg"></span>
+                            </div>
+                           <input type="text" placeholder="Email" class="form-control">
+                       </div>
+                       <div class="input-group mt-4">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><img width="20" src="assets/img/i-telp.svg"></span>
+                            </div>
+                           <input type="text" placeholder="No. Telfon" class="form-control">
+                       </div>
+                       <div class="input-group mt-4">
+                            <textarea class="form-control-area" rows="4" placeholder="apa yang ingin anda tanyakan?"></textarea>
+                        </div>
+                        <button class="btn-kontak shadow mt-4 mb-4 ">Ajukan pertanyaan</button>
+                    </div>
+                </div>
+            </div>
+            <!-- end kontak -->
+            <!-- endcontent -->
+        </div>
+        <hr>
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md">
+                        <img src="assets/img/logo.png" class="footer-logo">
+                        <p class="footer-title">Temukan rumah impian anda <br> dengan proses pembelian yang <br> mudah</p>
+                    </div>
+                    <div class="col-md">
+                        <div class="footer-text">Tentang Kami
+                            <p>Karir<br>Privasi<br>Syarat & Kebijakan</p>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="footer-text">Hubungi Kami
+                            <p>halo@findhme.id<br>021 - 2725 - 8332</p>
+                            <div class="d-flex justify-content-center">
+                                <img class="icon-footer mr-4" src="assets/img/i-gmail.svg">
+                                <img class="icon-footer mr-4" src="assets/img/i-wa.svg">
+                                <img class="icon-footer" src="assets/img/i-telp.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center">Copyright 2021 • Hak Cipta • <span style="color: #E2A30F; font-weight: 300">Jurupoles</span></p>
+            </div>
+        </footer>
+        
+    </div>
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
